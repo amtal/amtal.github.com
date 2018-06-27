@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://three.letter.agency/bn/ -->
+<html class=" js no-mobile desktop no-ie chrome chrome66 bn-section gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius cssreflections csstransforms csstransitions no-touch no-retina fontface domloaded w-1920 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 gt-1280 gt-1440 gt-1680 no-portrait landscape" id="index-page"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="./Sum-Total-of-ISA-Knowledge_files/reveal.css">
+		<link rel="stylesheet" href="./Sum-Total-of-ISA-Knowledge_files/night.css">
+
+		<!-- ZZ override stupid image background thing? -->
+		<style> .reveal section img { background:none; border:none; box-shadow:none; }</style>
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="./Sum-Total-of-ISA-Knowledge_files/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script><link rel="stylesheet" type="text/css" href="./Sum-Total-of-ISA-Knowledge_files/paper.css"><script type="text/javascript" src="./Sum-Total-of-ISA-Knowledge_files/marked.js.download"></script><script type="text/javascript" src="./Sum-Total-of-ISA-Knowledge_files/markdown.js.download"></script><script type="text/javascript" src="./Sum-Total-of-ISA-Knowledge_files/math.js.download"></script><script type="text/javascript" src="./Sum-Total-of-ISA-Knowledge_files/notes.js.download"></script><script type="text/javascript" src="./Sum-Total-of-ISA-Knowledge_files/highlight.js.download"></script>
+	<script type="text/javascript" src="./Sum-Total-of-ISA-Knowledge_files/MathJax.js.download"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf?V=2.7.0') format('opentype')}
+@font-face {font-family: MathJax_Main-bold; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf?V=2.7.0') format('opentype')}
+@font-face {font-family: MathJax_Main-italic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf?V=2.7.0') format('opentype')}
+@font-face {font-family: MathJax_Math-italic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf?V=2.7.0') format('opentype')}
+@font-face {font-family: MathJax_Caligraphic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf?V=2.7.0') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf?V=2.7.0') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf?V=2.7.0') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf?V=2.7.0') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff?V=2.7.0') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf?V=2.7.0') format('opentype')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+	<body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"><br><br></div></div><div id="MathJax_Message" style="display: none;"></div>
+		<div class="reveal slide center has-vertical-slides has-horizontal-slides ready" role="application" data-transition-speed="default" data-background-transition="fade">
+			<div class="slides" style="width: 960px; height: 700px; zoom: 1.32069;">
+				<section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" class="past" style="top: 200px; display: none;" hidden="" aria-hidden="true"><h2 id="sum-total-of-isa-knowledge">Sum Total of ISA Knowledge</h2>
+<h4 id="analyzing-your-static-analysis-tools">Analyzing Your Static Analysis Tools</h4>
+<p><small><a href="https://twitter.com/alexkropivny">@alexkropivny</a></small></p>
+<aside class="notes"><ul>
+<li>contents summary:<ul>
+<li>Why we're stuck with static analysis</li>
+<li>Realistic automation problems for static FW RE</li>
+<li>QAing your own tools against other people's tools (via concrete/symbolic exec)</li>
+<li>Retrospective of if/when it's worth it, relative to just fixing ur stuff</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-charset="iso-8859-15" hidden="" aria-hidden="true" class="stack past" style="top: 0px; display: none;"><section data-markdown="" data-markdown-parsed="true" style="top: 246px; display: none;"><h3 id="unsolicited-firmware-archeology-and-you">Unsolicited Firmware Archeology and You</h3>
+<aside class="notes"><ul>
+<li>gonna go over:<ul>
+<li>software supply chain</li>
+<li>motivation (which encourages very different tradeoffs compared to sw verification community)</li>
+<li>part of workflow I'm examining</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 284px; display: none;"><p><img src="./Sum-Total-of-ISA-Knowledge_files/supplychain2.png" alt="Firmware supply chains"> </p>
+<aside class="notes"><ul>
+<li>ancient wise ones (silicon vendors) produce some artifacts, then all their knowledge is lost</li>
+<li>sw/fw devs port some toolchains</li>
+<li>end users build devices with all of the above</li>
+<li>eventually end user testing provides some assurance of toolchains-silicon compatibility</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><p><img src="./Sum-Total-of-ISA-Knowledge_files/junkhacking1.jpg" alt="I bet I can hack this" height="30%" width="30%"> <!-- --> 
+<img src="./Sum-Total-of-ISA-Knowledge_files/junkhacking2.jpg" alt="I bet I can hack this" height="30%" width="30%"> <!-- -->
+<img src="./Sum-Total-of-ISA-Knowledge_files/junkhacking3.jpg" alt="I bet I can hack this" height="30%" width="30%"> <!-- --></p>
+<p>"I bet I can hack this"</p>
+<aside class="notes"><ul>
+<li>I'm focusing on the attacker's problems</li>
+<li>RE often starts with a tiny viewport of the overall supply chain</li>
+<li>pessimistically, due to ignorance - but it's a big fragmented world</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><p><img src="./Sum-Total-of-ISA-Knowledge_files/workflow2.png" alt="accessible junk hacking vs weird junk hacking" height="80%" width="80%">  <!-- --></p>
+<aside class="notes"><ul>
+<li>workflow for gaining control of linux+Busybox on arm/mips is well understood<ul>
+<li>can build re-useable tooling for all stages</li>
+</ul>
+</li>
+<li>workflow for gaining control of mystery radio chips/co-co-processors is esoteric<ul>
+<li>final stages are extremely target specific</li>
+</ul>
+</li>
+<li>takeaways:<ul>
+<li>lots of interesting targets involve mucking about in IDA w/o tools to build tools</li>
+<li>optimizing that stage is worthwhile</li>
+<li>modern bet to do so is augmenting "IDA" with semantic instruction info</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="references">References</h4>
+<p><small></small></p><small>
+<ul>
+<li><a href="http://dmitry.gr/?r=05.Projects&amp;proj=25.%20VMU%20Hacking">VMU hackery</a> - full workflow example</li>
+<li><a href="https://github.com/seemoo-lab/nexmon#readme">Nexmon</a> - long-term toolchain example</li>
+</ul>
+<p>Tools to assist static portion of workflow:</p>
+<ul>
+<li><a href="http://docs.angr.io/">angr</a></li>
+<li><a href="https://triton.quarkslab.com/">Triton</a> (obfuscated interpreters?)</li>
+<li><a href="https://github.com/cea-sec/miasm/tree/master/miasm2/arch">miasm2</a> or <a href="https://github.com/bdcht/amoco/tree/release/amoco/arch">amoco</a> (pure Python)</li>
+<li><a href="https://klee.github.io/">KLEE</a> (if you have source)</li>
+<li><a href="https://github.com/airbus-seclab/bincat#readme">bincat</a> / <a href="https://github.com/BinaryAnalysisPlatform/bap#readme">BAP</a> / <a href="https://github.com/trailofbits/manticore">Manticore</a> / ...</li>
+</ul>
+</small><p><small></small></p>
+</section></section><section data-charset="iso-8859-15" hidden="" aria-hidden="true" class="stack past" style="top: 0px; display: none;"><section data-markdown="" data-markdown-parsed="true" style="top: 283px; display: none;"><h3 id="manual-static-sup-1-2-5-sup-analysis-automation">Manual Static<!--sup>[1](#/2/5)</sup--> Analysis Automation</h3>
+<aside class="notes"><ul>
+<li>kind of a misnomer, this is manual as all hell</li>
+<li><strong>this is where you need to pick your poison and choose a toolchain</strong><ul>
+<li>I'm trying to focus on techniques, but provide example</li>
+<li>I'm using binja 'cuz it's still fun to script, and python as an interoperability least common multiple</li>
+<li>8051 as perfect mix of weird and simple, if you can 8051 you can anything</li>
+<li><strong>vector35/their customer base disclaimer, juts a fun personal project</strong></li>
+</ul>
+</li>
+<li>gonna look through common problems, desired solutions, then walk through examples</li>
+<li>knowledge-accumulating feedback loop/lever</li>
+<li>automation runs that loop faster and dumber</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="types-of-failures">Types of Failures</h4>
+<ol>
+<li>False positives discovering more false positives (sev: high)</li>
+<li>Underapproximations makes you re-visit code (sev: annoying)</li>
+<li>Script stomped over manually-entered markup (sev: only happens once)</li>
+</ol>
+<aside class="notes"><ul>
+<li>at scale/academic view: <ul>
+<li>under/overapproximation of states, </li>
+<li>true/false positives/negatives (and recall/precision from those)</li>
+</ul>
+</li>
+<li>in manual use, two failures you care about:<ul>
+<li>automated garbage cannon</li>
+<li>you thought the script you ran was total but it weren't</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="useful-automation">Useful Automation</h4>
+<ul>
+<li>Instruction length disassembler</li>
+<li>All control flow effects</li>
+<li>Constant propagation (sometimes)</li>
+</ul>
+<aside class="notes"><ul>
+<li>length and control flow <em>seem</em> basic, but:<ul>
+<li>dynamic branches might not be a big deal on some targets</li>
+<li>there might not be enough dynamic branches to care</li>
+<li>or it might be a huge deal<ul>
+<li>weird latched bus /w high bits in a port causing "jumps"...</li>
+<li>memory map changing between bootloaders you haven't carved apart</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>there might not be any annoying half-loads/switches</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="useful-automation">Useful Automation</h4>
+<ul>
+<li>Command/state machine tables (fancy switches)</li>
+</ul>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/hook-table.png" alt="simple hooks">
+<img src="./Sum-Total-of-ISA-Knowledge_files/fancy-switch-statements.png" alt="fsm/command tables; like switch statements with symbols"></p>
+<aside class="notes"><ul>
+<li>state tables (e.g. AT cmds) are the closest thing you have to symbol tables, $$$</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="lifter-problems-system-code">Lifter Problems: System Code</h4>
+<ul>
+<li>Uncommon instruction classes</li>
+<li>Once-per-boot setup features</li>
+<li>Shared memory bus: FIFOs, control flags, DMA</li>
+</ul>
+<aside class="notes"><ul>
+<li>would like to identify and localize to library regions (DSP, OS, boot...)</li>
+<li>peripherals needs to be function-summarized at higher HAL (ie. HLE)</li>
+<li>would <em>like</em> to detect and warn+abandon all analysis until then<ul>
+<li>can't for what you don't expect (eg dual data pointers in 80C51, inc/dec an SFR to toggle)</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="lifter-problems-abstractions">Lifter Problems: Abstractions</h4>
+<ul>
+<li>Flattening memory spaces</li>
+<li>Aliasing with registers (or other memory)</li>
+<li>Inter- vs intra-procedural analysis</li>
+<li>C memory and stack model</li>
+</ul>
+<aside class="notes"><ul>
+<li>most importantly: everyone writes/analyzes C, these problems creep in from not-C</li>
+<li>but can't do that for abstraction mismatches</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="examples">Examples</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/dual-dptr.png" alt="DPTR bank switching, inc both times is not a bug!"></p>
+<aside class="notes"><ul>
+<li>R0-R7 bank switch - only in OS task code, can ignore and safety-check for presence</li>
+<li>DPTR bank switch... like R0-R7 bank switch but more surprising<ul>
+<li>note this also affects perfect list of 'inc/dec', due to 2nd bit forced 0</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="examples">Examples</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/uart.png" alt="uart condition and tx reg"></p>
+<aside class="notes"><ul>
+<li>basic MMIO</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="examples">Examples</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/banked-map-tradeoff.png" alt="possible memory map for abstract processor"></p>
+<aside class="notes"><ul>
+<li>memspace @ 0 has simplified lifts, also currently ptrs will work</li>
+<li>what if you need more than 1...<ul>
+<li>could do another arch just for "structs", jump to main one from it...<ul>
+<li>or can just mark it as as uint8[] and parse in code-&gt;move on</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="examples">Examples</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/C-memory-model.png" alt="C memory model"></p>
+<aside class="notes"><ul>
+<li>the C compiler/runtime has its own virtual memory map!</li>
+<li>and endianness, which doesn't necessarily match DPTR/stack order</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="examples">Examples</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/interprocedural-stack-break.png" alt="C stack model being ignored by C compiler&#39;s stdlib"></p>
+<aside class="notes"><ul>
+<li>compiler runtime scattering calls through primitives through codebase</li>
+<li>fix: lift/"function summarize" compiler prims via dirty global state hacks</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="examples">Examples</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/binja16.png" alt="another stdlib kinda working, but no clear path for 24-bit register"></p>
+</section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="examples">Examples</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/binja18.png" alt="brk"> </p>
+<aside class="notes"><ul>
+<li>all lifter bad news in one place:<ul>
+<li>bank swaps upper half of 16-bit code mem via I/O port</li>
+<li>calls via pop, but also sets up return to switch to return-bank via push</li>
+<li>multiple entry points all fused to a common tail-trampoline</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="planned-workflow">Planned Workflow</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/idealized-workflow.png" alt="idealized workflow" height="70%" width="70%"> <!-- --></p>
+<aside class="notes"><ul>
+<li>manual analysis of disassembly, but with some automatic stuff looking at a lifted IR</li>
+<li>quality of lifter is kind of key; need to do some QA on it</li>
+<li>verification conditions for lifter's <em>really</em> dumb approximations is ideal<ul>
+<li>but might not be practical/worthwhile for niche features like dual DPTR </li>
+<li>or total unknowns like DMA/peripherals</li>
+</ul>
+</li>
+</ul>
+</aside></section></section><section data-charset="iso-8859-15" hidden="" aria-hidden="true" class="stack past" style="top: 0px; display: block;"><section data-markdown="" data-markdown-parsed="true" style="top: 283px; display: block;"><h3 id="qa-by-concrete-execution">QA by Concrete Execution</h3>
+<aside class="notes"><ul>
+<li>can we fuzz our lifter?</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="sources-of-information">Sources of Information</h4>
+<ul>
+<li>Emulators!</li>
+<li>Hacker tools</li>
+</ul>
+<aside class="notes"><ul>
+<li>there's others, but ignoring them for now</li>
+<li>(x-platform C++ intrinsics, compilers, ISA test suites, occasional formal spec)</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="emulator-architecture">Emulator Architecture</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/awesome-routing.png" alt="massive dispatch switch"></p>
+</section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="emulator-architecture">Emulator Architecture</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/dispatch-case2.png" alt="call-to-simple">
+<img src="./Sum-Total-of-ISA-Knowledge_files/dispatch-case1.png" alt="inline-simple"></p>
+<aside class="notes"><ul>
+<li>state representation, dispatch, fast/slow paths<ul>
+<li>ignoring branch cache optimizations/JITs...</li>
+</ul>
+</li>
+<li>for a given set of architecture assumptions...<ul>
+<li>no loops!</li>
+<li>no external calls! (ignoring uops/hw accel/periphs)</li>
+</ul>
+</li>
+<li>only complex branching is the dispatch</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="fuzzing-a-vs-b">Fuzzing A vs B</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/fuzzer.png" alt="workflow with emu" height="50%" width="50%">  <!-- --></p>
+<ul>
+<li>explore on commonly-occuring instructions</li>
+<li>bin differences on instruction opcodes</li>
+<li>prioritize on registers affected</li>
+</ul>
+<aside class="notes"><ul>
+<li>annoying problem: you now need to emulate your IR...</li>
+<li>this problem will show up again when needing to lift IR to SMTLIB</li>
+<li>PC jumps are probably the main concern</li>
+<li>note that emu and fuzzer both run in separate abstract machines<ul>
+<li>need to concretize to a common one</li>
+</ul>
+</li>
+<li>note that emu is written to run <em>working</em> C code<ul>
+<li>exceptions/edge cases/unused features aren't present</li>
+</ul>
+</li>
+<li><strong>ehh, idk if this binning thing will be fun - triaging fuzz data sucks</strong></li>
+<li><strong>it's a really simple problem...</strong></li>
+</ul>
+</aside></section></section><section data-charset="iso-8859-15" hidden="" aria-hidden="true" class="stack past" style="top: 0px; display: block;"><section data-markdown="" data-markdown-parsed="true" style="top: 283px; display: block;"><h3 id="qa-by-symbolic-execution">QA by Symbolic Execution</h3>
+<aside class="notes"><ul>
+<li>let's try checking equivalence with symex</li>
+<li>and see how that went for me :(</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 164px; display: block;"><pre><code class="lang-python hljs">ii = lift.instruction_at(bv, here)      <span class="hljs-comment"># 'swap' MCS-51 instruction</span>
+emu = lift.function(current_function)   <span class="hljs-comment"># 'swap_a' function on ARM</span>
+
+s = ii.solver()
+emu.constrain(s)
+s.add(z3.And(ii[<span class="hljs-string">'A'</span>][<span class="hljs-number">0</span>] == emu[<span class="hljs-string">'mem'</span>][<span class="hljs-number">0</span>][<span class="hljs-number">0x1ef2608</span>], 
+             ii[<span class="hljs-string">'A'</span>][<span class="hljs-number">-1</span>] != emu[<span class="hljs-string">'mem'</span>][<span class="hljs-number">-1</span>][<span class="hljs-number">0x1ef2608</span>]))
+
+<span class="hljs-keyword">print</span> s.check()  <span class="hljs-comment"># sat</span>
+<span class="hljs-keyword">print</span> s.model()[x[<span class="hljs-string">'A'</span>][<span class="hljs-number">0</span>]].sexpr(), <span class="hljs-string">':'</span>,
+<span class="hljs-keyword">print</span> s.model()[x[<span class="hljs-string">'A'</span>][<span class="hljs-number">-1</span>]].sexpr()
+</code></pre>
+<aside class="notes"><ul>
+<li>quickly demo lift.&lt;&gt;.solver() and friends right before</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><p><img src="./Sum-Total-of-ISA-Knowledge_files/equiv-counterexample.png" alt="yay our LLIL-&gt;Z3 lift is broken"> </p>
+<aside class="notes"><ul>
+<li>one of the implementations is correct - other one isn't, hence sat assignment is right</li>
+<li>(bug is actually in the LLIL-to-Z3 lift, not useful for debugging i8051 lift :( )</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><p><img src="./Sum-Total-of-ISA-Knowledge_files/equiv-pass-simple.png" alt="y4&amp;=y0"></p>
+<pre><code class="lang-python hljs">x = lift.function(current_function)
+summary = x[<span class="hljs-string">'Y4'</span>][<span class="hljs-number">-1</span>] != x[<span class="hljs-string">'Y4'</span>][<span class="hljs-number">0</span>] &amp; x[<span class="hljs-string">'Y0'</span>][<span class="hljs-number">0</span>]
+s = x.solver()
+s.assert_and_track(summary, <span class="hljs-string">'not-equivalent'</span>)
+<span class="hljs-keyword">print</span> s.check() <span class="hljs-comment"># unsat</span>
+s.unsat_core()  <span class="hljs-comment"># [not-equivalent]</span>
+</code></pre>
+<aside class="notes"><ul>
+<li>also useful for validating high-level lifts of common primitive ops</li>
+<li>potentially also for validating length-disassemblers inside patch code</li>
+<li>or auto-generating branch-flipping patchers</li>
+<li>hype?</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><p><img src="./Sum-Total-of-ISA-Knowledge_files/evergreen_infosuck.png" alt="oops" height="70%" width="70%"> <!-- --></p>
+<aside class="notes"><ul>
+<li>no hype :(</li>
+<li>there is a huge body of academic/industry research</li>
+<li>if you go back to 1980s, there's still a large body of academic research...</li>
+<li>let's not lose sight that we're just here to pwn<ul>
+<li>These tools exist only to accelerate a small part of the workflow.</li>
+<li>They need to be operationally useful, not intellectually stimulating..</li>
+</ul>
+</li>
+<li>That said, using established academic jargon is worthwhile.</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="program-analysis-is-a-search-problem">Program Analysis is a Search Problem</h4>
+<ul>
+<li>Fast backtracking vs slow complex search</li>
+<li>Specialized algorithms vs generic solver</li>
+<li>Heuristics compensating for generic solver</li>
+<li>Checking results of <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2203;&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 0.61em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.549em; height: 0px; font-size: 103%;"><span style="position: absolute; clip: rect(1.338em, 1000.49em, 2.37em, -999.997em); top: -2.181em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: MathJax_Main;">∃</span></span><span style="display: inline-block; width: 0px; height: 2.187em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.816em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="normal">∃</mi></math></span></span><script type="math/tex" id="MathJax-Element-1">\exists</script> search vs <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;&amp;#x2200;&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-4" style="width: 0.61em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.549em; height: 0px; font-size: 103%;"><span style="position: absolute; clip: rect(1.338em, 1000.55em, 2.37em, -999.997em); top: -2.181em; left: 0em;"><span class="mrow" id="MathJax-Span-5"><span class="mi" id="MathJax-Span-6" style="font-family: MathJax_Main;">∀</span></span><span style="display: inline-block; width: 0px; height: 2.187em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.059em; border-left: 0px solid; width: 0px; height: 0.878em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="normal">∀</mi></math></span></span><script type="math/tex" id="MathJax-Element-2">\forall</script> search</li>
+<li>Approximating state coverage via path coverage</li>
+</ul>
+<aside class="notes"><ul>
+<li>this is as tl;dr as I can get a publication/tool review:</li>
+<li>all program analysis is search over program state transitions</li>
+<li>choice of fast stochastic search (fuzzer) vs transform-then-search (symbolic exec)</li>
+<li>heuristics tend to be tied to a specific problem<ul>
+<li>modern sym. ex. tries to keep SMT solver very generic</li>
+<li>code wrapping solver has the really problem-specific heuristics</li>
+</ul>
+</li>
+<li>this is important when reasoning about correctness, since:<ul>
+<li>existance of a path matching some constraints is easy to verify against HW</li>
+<li>non-existance of a path requires trust in toolchain...</li>
+<li>toolchains for slow-but-fancy analysis are huge</li>
+</ul>
+</li>
+<li>equivalence checking = proof of non-existance of differing outputs<ul>
+<li>exhaustive search is great if tractable<ul>
+<li>need a ton of ISA knowledge to select portions where it is</li>
+</ul>
+</li>
+<li>block/path coverage is an approximation of exhaustive search<ul>
+<li>only tracks $rip portion of program state</li>
+</ul>
+</li>
+<li>symbolic execution's "unsat" answer is exhaustive search on an SMT-internal IR<ul>
+<li>as trustworthy as 300k+ lines of C++ can be</li>
+<li>plus our own transforms prior to SMT solver</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>in short: symbolic execution research doesn't offer a free lunch :(</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="workflow-and-correctness">Workflow and Correctness</h4>
+<p><img src="./Sum-Total-of-ISA-Knowledge_files/symex-xform-chain.png" alt="my symex chain" height="70%" width="70%"><!-- --></p>
+<aside class="notes"><ul>
+<li>good news: <ul>
+<li>most parts are common across platforms, have a GUI for manual fixin'</li>
+<li>binja does some heavy lifting (more specialized &amp; faster than SMT)</li>
+<li>can give some evidence of equivalence, not just counterexamples</li>
+</ul>
+</li>
+<li>writing 2 at once, based on 3rd one under active dev (nightly branch)</li>
+<li>each lift is partial and approximates inputs</li>
+<li>attempts to mitigate bugs:<ul>
+<li>compile with Os to minimize amount of code correctness depends on</li>
+<li>pick simple but well-lifted arch for the emulator (32-bit ARM)</li>
+<li>minimizing features used (e.g. disable subregisters on 8051 arch)</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="future" aria-hidden="true" style="top: 350px; display: none;"><h4 id="references">References</h4>
+<p><small></small></p><small>
+<ul>
+<li><a href="https://softsec-kaist.github.io/MeanDiff">MeanDiff</a> - comparison of several major lifters in F#</li>
+<li><a href="https://theory.stanford.edu/~aiken/publications/papers/asplos06.pdf">Automatic Generation of Peephole Superoptimizers</a> - ambitious academic work</li>
+<li><a href="https://talosintelligence.com/resources/1">Fuzzing and Patch Analysis: SAGEly Advice</a> - equivalence checking experiments</li>
+<li><a href="http://www.dhosa.org/wp-content/uploads/2012/08/pokeemu-asplos12.pdf">Hi-Fi Tests for Lo-Fi Emulators</a> - emulator comparison (would AFL do better?)</li>
+</ul>
+<p>Literature reviews to pull terminology from:</p>
+<ul>
+<li><a href="https://arxiv.org/pdf/1610.00502.pdf">A Survey of Symbolic Execution Techniques</a></li>
+<li><a href="http://users.dsic.upv.es/~jsilva/papers/Vocabulary.pdf">A Vocabulary of Program Slicing-Based Techniques</a></li>
+<li><a href="https://mitpress.mit.edu/books/mechanizing-proof">Mechanizing Proof: Computing, Risk, and Trust</a> for a fun historical perspective</li>
+</ul>
+</small><p><small></small></p>
+</section></section><section data-charset="iso-8859-15" class="stack present" style="top: 0px; display: block;" data-previous-indexv="1"><section data-markdown="" data-markdown-parsed="true" style="top: 236px; display: block;" class="past" hidden="" aria-hidden="true"><h3 id="what-went-right-">What Went Right &amp;</h3>
+<h3 id="what-went-wrong">What Went Wrong</h3>
+<aside class="notes"><ul>
+<li>remember the original goal - bringing up decent static RE tools should be a <em>small</em> part of the total workflow</li>
+<li>if these techniques race against someone just reading the manual and manually writing lifts for anything interesting<ul>
+<li>who wins?</li>
+<li>under what conditions?</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="past" style="top: 98.5px; display: block;" hidden="" aria-hidden="true"><ol>
+<li>Approximations: <ul>
+<li>acceptable, but validate major assumptions</li>
+</ul>
+</li>
+<li>Partial lifting: <ul>
+<li>acceptable and commonplace</li>
+</ul>
+</li>
+<li>Emulator-as-oracle:<ul>
+<li>less partial, needs a map to lifted model</li>
+</ul>
+</li>
+<li>Full equivalence checking versus emulator:<ul>
+<li>hampered by 2 and 3, but sometimes works</li>
+</ul>
+</li>
+</ol>
+<aside class="notes"><ul>
+<li>good news:<ul>
+<li>querying a reference emulator is <em>occasionally</em> helpful compared to reading docs</li>
+<li>trivial equivalence checking via symbolic execution is <em>very occasionally</em> useful <ul>
+<li>e.g. quickly checking 32-bit helper functions on 8051</li>
+</ul>
+</li>
+<li>lifting only some instructions and approximating a <em>lot</em> turns out to be <em>fine</em> for manual RE!</li>
+</ul>
+</li>
+<li>bad news: <ul>
+<li>you can't automate away deciding what to approximate, or mapping your architecture to your analysis tool</li>
+<li>in a race against someone /w a ref. manual and basic skills, tools are only a minor advantage</li>
+<li>you won't reach anywhere near academic levels of "success" (&gt;50% instructions proven equivalent) on hacker tools<ul>
+<li>but you don't need to</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</aside></section><section data-markdown="" data-markdown-parsed="true" class="present" style="top: 157.5px; display: block;"><h4 id="example-tools">Example Tools</h4>
+<p><small></small></p><small>
+<ul>
+<li><a href="https://github.com/amtal/i8051#readme">i8051</a> - minimum viable processor module for 8051</li>
+<li><a href="https://github.com/amtal/STC#readme">STC</a> - (WIP) attempt at generic lifter analysis tools</li>
+<li>slides (<a href="https://amtal.github.com/slides/Sum-Total-of-ISA-Knowledge.pdf">PDF</a> render, <a href="https://amtal.github.com/slides/Sum-Total-of-ISA-Knowledge.html">reveal.js</a> with notes)</li>
+</ul>
+</small><p><small></small></p>
+</section></section>
+
+			</div>
+		<div class="backgrounds"><div class="slide-background past" data-loaded="true" style="display: none;"></div><div class="slide-background stack past" data-loaded="true" style="display: none;"><div class="slide-background present" data-loaded="true" style="display: none;"></div><div class="slide-background future" data-loaded="true" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack past" data-loaded="true" style="display: none;"><div class="slide-background present" data-loaded="true" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack past" style="display: block;" data-loaded="true"><div class="slide-background present" style="display: block;" data-loaded="true"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack past" style="display: block;" data-loaded="true"><div class="slide-background present" style="display: block;" data-loaded="true"></div><div class="slide-background future" style="display: block;" data-loaded="true"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack present" style="display: block;" data-loaded="true"><div class="slide-background past" style="display: block;" data-loaded="true"></div><div class="slide-background past" style="display: block;" data-loaded="true"></div><div class="slide-background present" style="display: block;" data-loaded="true"></div></div></div><div class="progress" style="display: block;"><span style="width: 1920px;"></span></div><aside class="controls" data-controls-layout="bottom-right" data-controls-back-arrows="faded" style="display: block;"><button class="navigate-left enabled" aria-label="previous slide"><div class="controls-arrow"></div></button><button class="navigate-right" aria-label="next slide" disabled="disabled"><div class="controls-arrow"></div></button><button class="navigate-up enabled" aria-label="above slide"><div class="controls-arrow"></div></button><button class="navigate-down" aria-label="below slide" disabled="disabled"><div class="controls-arrow"></div></button></aside><div class="slide-number" style="display: none;"></div><div class="speaker-notes" data-prevent-swipe="" tabindex="0"></div><div class="pause-overlay"></div><div id="aria-status-div" aria-live="polite" aria-atomic="true" style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);">Example Tools
+
+
+i8051 - minimum viable processor module for 8051
+STC - (WIP) attempt at generic lifter analysis tools
+slides (PDF render, reveal.js with notes)
+
+
+</div></div>
+
+		<script src="./Sum-Total-of-ISA-Knowledge_files/head.min.js.download"></script>
+		<script src="./Sum-Total-of-ISA-Knowledge_files/reveal.js.download"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/math/math.js', async: true },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Main, sans-serif;"></div></div></body></html>
